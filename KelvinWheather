@@ -1,0 +1,10 @@
+const kelvin = 90;
+// Temperatura en grados Kelvin. 
+const celsius = kelvin - 273;
+console.log(`The temperature is ${celsius}`);
+// temperatura en celsius
+let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+// temperatura en farenheitt
+console.log(`The temperature is ${fahrenheit} TEMPERATURE degrees Fahrenheit.`)
+let newton = Math.floor(celsius * (33 /100));
+console.log(`The temperature is ${newton}`);
